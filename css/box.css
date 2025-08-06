@@ -1,0 +1,14 @@
+.b_shadow{
+    box-shadow:4px 6px 8px red;
+    width:250px;
+}
+.d_shadow{
+    filter:drop-shadow(4px 6px 4px red);
+    width:250;
+    height:300px;
+}
+.d_shadow2{
+    filter:drop-shadow(4px 6px 4px rgb(25, 0, 255));
+    width:250;
+    height: 300px;
+}

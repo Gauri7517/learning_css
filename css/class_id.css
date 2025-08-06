@@ -1,0 +1,21 @@
+.t_color{
+    color:aqua;
+}
+.t_size{
+    font-size: 50px;
+}
+.t_bg{
+    background-color: palevioletred;
+}
+.t_shadow{
+    text-shadow: 4px 4px 4px rgb(38, 0, 128);
+}
+.t_color1{
+    color:purple;
+}
+.t_bg1{
+    background-color: red;
+}
+.t_size{
+    font-size: 50px;
+}
