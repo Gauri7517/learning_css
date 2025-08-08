@@ -1,0 +1,20 @@
+.heading1{
+    font-size:100px;
+    text-align:center;
+    padding-top:150px;
+    color:black;
+}
+.linear{
+    height:400px;
+    background:linear-gradient( purple,red,blue);
+}
+.radial2{
+    height:400px;
+    background:radial-gradient(red,yellow,green,aqua,blue,purple);
+}
+.conic{
+    height:600px;
+    background:conic-gradient(from 90deg,black,red,green,yellow,rgb(194, 26, 180),pink)
+}
+
+
