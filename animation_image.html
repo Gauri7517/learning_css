@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:500px;
+            height: 500px;
+            background-color:aqua;
+            position:relative;
+            animation:firstanimation;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+            animation-delay: 2s;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes firstanimation
+        {
+            0%{background-image:url('/learning_css/images/earth.jpg');left:0px;top:0px}
+             25%{background-image: url('/learning_css/images/bird1.jpg');left:300px;top:0px}
+              50%{background-image: url('/learning_css/images/imd3.jpg');left:300px;top:300px}
+               75%{background-image: url('/learning_css/images/flower2.jpg');left:0px;top:300px}
+                100%{background-image: url('/learning_css/images/nature1.jpg');left:0px;top:0px}
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

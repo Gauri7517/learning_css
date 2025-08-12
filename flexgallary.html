@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-items img{
+           
+            margin: 10px;
+            width: 300px;
+            height:250px;
+            color:white;
+            text-align:center;
+            font-size:40px;
+        }
+        .flex-container{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            justify-content:space-around;
+            align-items:center;
+            list-style:none;
+            position:relative;
+            overflow:hidden;
+            
+        }
+        .b_shadow{
+            height:100%;
+            width:100%;
+            transition: 3s;
+        }
+        .b_shadow:hover{
+            transform: Scale(1.5);
+        }
+        .img_2:hover{
+            transform: Skew(20deg,20deg);
+        }
+        .img_3:hover{
+            transform:translate(125px,125px);
+        }
+        .img_4:hover{
+            transform: rotate(90deg);
+        }
+        .img_5:hover{
+            transform: SkewX(20deg);
+        }
+        .img_6:hover{
+            transform: SkewY(20deg);
+        }
+        .img_7:hover{
+            transform: Skew(20deg,20deg);
+        }
+        .img_8:hover{
+            transform: Scale(1.3);
+        }
+        .img_9:hover{
+            transform: scale(2)rotate(90deg) translateX(100px);
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- ul.flex-container>li.flex-items*10 shortcat -->
+    <ul class="flex-container">
+        <li class="flex-items"> <img class="b_shadow" src="/learning_css/banner 3.jpg" ,alt="Butterfly"/></li>
+        <li class="flex-items"><img class="img_2" src="/learning_css/images/imd3.jpg"  ,alt="dog"/></li>
+        <li class="flex-items"><img class="img_3" src="/learning_html/images/home image.webp" alt="banner"/></li>
+        <li class="flex-items"><img class="img_4" src="/learning_html/images/pepperoni pizza.jpg"  ,alt="pepperoni"/></li>
+        <li class="flex-items"><img class="img_5" src="/learning_css/images/bird1.jpg"  ,alt="banner"/></li>
+        <li class="flex-items"><img class="img_6" src="/learning_css/images/banner img.webp"  ,alt="Butterfly"/></li>
+        <li class="flex-items"><img class="img_7" src="/learning_css/images/nature1.jpg"  ,alt="Butterfly"/></li>
+        <li class="flex-items"><img class="img_8" src="/learning_css/images/earth.jpg"  ,alt="pan pizza"/></li>
+        <li class="flex-items"><img class="img_9" src="/learning_css/images/cat1.webp"  ,alt="cat"/></li>
+        <li class="flex-items"><img class="b_shadow" src="/learning_html/images/flower images.jpg"  ,alt="flower"/></li>
+    </ul>
+    
+</body>
+</html>
