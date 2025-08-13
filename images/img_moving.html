@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+
+       
+         .text-container{
+            transform-origin: top center;
+            position:relative;
+            animation: getup 5s ease-in-out infinite alternate;
+            margin-top: 100px;
+            margin-left: 400px;
+
+         }
+          
+           .text-container{animation-delay: 1s;}
+
+               @keyframes getup{
+                0%{transform: rotate(7deg);}
+                100%{transform: rotate(-7deg);}
+               
+
+               }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="text-container">
+        <img src="/learning_css/images/nature1.jpg" height="400",width="400" >
+    </div>
+</body>
+</html>
