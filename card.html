@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flex-container1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 200px;
+      
+    }
+      
+    .card {
+      width: 350px;
+      height: 250px;
+      margin: 10px;
+    }
+
+    .card-inner {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 1.5s;
+      transform-style: preserve-3d;
+    }
+
+    .card:hover .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-front {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 4px solid black;
+      box-shadow: 4px 6px 8px green;
+      
+    }
+    .card-front img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card-back {
+      background-color: green;
+      transform: rotateY(180deg);
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      border: 4px solid black;
+       box-shadow: 4px 6px 8px green;
+    }
+
+    .card-back img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="flex-container1">
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/learning_css/images/cat1.webp" alt="cat1" />
+         
+        </div>
+        <div class="card-back">
+          <img src="/learning_html/images/cat image.webp"alt=cat2 />
+          
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/learning_css/images/nature1.jpg" alt="nature1" />
+          
+          
+        </div>
+        <div class="card-back">
+          <img src="/learning_css/images/home 1.jpg " alt="nature2">
+          
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/learning_css/images/bird1.jpg" alt="bird1"/>
+         
+        </div>
+        <div class="card-back">
+          <img src="/learning_css/images/bird png.webp" alt="bird2"/>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/learning_css/images/map.jpg" alt="map"/>
+          
+        </div>
+        <div class="card-back">
+          <img src="/learning_css/images/earth.jpg" alt="earth"/>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
