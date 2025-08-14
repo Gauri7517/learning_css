@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .z.container{
+            position: relative;
+            margin: 50px;
+        }
+        div{
+            width: 150px;
+            height: 150px;
+            border-radius: 100px;
+            position: absolute;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            border: solid whitesmoke;
+            margin-top: 90px;
+            margin-left: 300px;
+        }
+        .blue{
+            background-color: blue;
+            left:10px;
+            z-index:1;
+        }
+        .purple{
+            background-color: purple;
+            left:100px;
+            z-index:2;
+        }
+        .purple:hover{
+            background-color: purple;
+            left:100px;
+            z-index:5;
+        }
+
+        .brown{
+            background-color: brown;
+            left:200px;
+            z-index:3;
+        }
+    </style>
+</head>
+<body>
+    <div class="Z-container">
+        <div class="blue">Blue</div>
+        <div class="purple">purple</div>
+        <div class="brown">brown</div>
+    </div>
+</body>
+</html>
